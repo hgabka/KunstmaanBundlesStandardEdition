@@ -44,6 +44,9 @@ class AppKernel extends Kernel
             new Kunstmaan\RedirectBundle\KunstmaanRedirectBundle(),
             new Kunstmaan\UserManagementBundle\KunstmaanUserManagementBundle(),
             new Kunstmaan\DashboardBundle\KunstmaanDashboardBundle(),
+            new Webtown\DoctrineSchemaUpdateBundle\WebtownDoctrineSchemaUpdateBundle(),
+            new Webtown\KunstmaanExtensionBundle\WebtownKunstmaanExtensionBundle(),
+            new JMS\TranslationBundle\JMSTranslationBundle(),
             //new Kunstmaan\LeadGenerationBundle\KunstmaanLeadGenerationBundle(),
         );
 
