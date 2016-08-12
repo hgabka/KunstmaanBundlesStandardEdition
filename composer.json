@@ -73,6 +73,10 @@
         },
         {
             "type": "vcs",
+            "url":  "git@github.com:hgabka/KunstmaanBundlesCMS.git"
+        },
+        {
+            "type": "vcs",
             "url":  "git@github.com:hgabka/kunstmaan-lucene-bundle.git"
         }
     ],
