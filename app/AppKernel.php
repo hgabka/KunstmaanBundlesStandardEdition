@@ -47,6 +47,8 @@ class AppKernel extends Kernel
             new Webtown\DoctrineSchemaUpdateBundle\WebtownDoctrineSchemaUpdateBundle(),
             new Webtown\KunstmaanExtensionBundle\WebtownKunstmaanExtensionBundle(),
             new JMS\TranslationBundle\JMSTranslationBundle(),
+            new Ivory\LuceneSearchBundle\IvoryLuceneSearchBundle(),
+            new Hgabka\LuceneBundle\HgabkaLuceneBundle(),
             //new Kunstmaan\LeadGenerationBundle\KunstmaanLeadGenerationBundle(),
         );
 
