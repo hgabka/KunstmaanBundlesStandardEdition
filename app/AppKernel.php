@@ -45,7 +45,7 @@ class AppKernel extends Kernel
             new Kunstmaan\UserManagementBundle\KunstmaanUserManagementBundle(),
             new Kunstmaan\DashboardBundle\KunstmaanDashboardBundle(),
             new Webtown\DoctrineSchemaUpdateBundle\WebtownDoctrineSchemaUpdateBundle(),
-            new Hgabka\KunstmaanExtensionBundle\WebtownKunstmaanExtensionBundle(),
+            new Hgabka\KunstmaanExtensionBundle\HgabkaKunstmaanExtensionBundle(),
             new JMS\TranslationBundle\JMSTranslationBundle(),
             new Ivory\LuceneSearchBundle\IvoryLuceneSearchBundle(),
             new Hgabka\LuceneBundle\HgabkaLuceneBundle(),
