@@ -20,7 +20,7 @@
         "paragonie/random_compat": "1.4.0",
         "egeloen/lucene-search-bundle": "~1.0",
         "zendframework/zendsearch": "dev-master",
-	    "hgabka/kunstmaan-extension-bundle": "~1.0.12",
+	    "hgabka/kunstmaan-extension-bundle": "dev-master",
 	    "hgabka/lucene-bundle": "dev-master"
     },
     "require-dev": {
