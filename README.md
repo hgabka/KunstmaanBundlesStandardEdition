@@ -10,7 +10,7 @@ What is the difference
 - Added **deployer/deployer** package
 - Added **JMSTranslationBundle** fork
 
-Install with Webtown/KunstmaanSetupBundle
+Install with Hgabka/KunstmaanSetupBundle
 =========================================
 
 ```

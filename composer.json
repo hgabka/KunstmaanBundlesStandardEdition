@@ -16,11 +16,11 @@
         "friendsofsymfony/user-bundle": "2.0.*@dev",
         "kriswallsmith/spork": "~0.3.0",
         "webtown/doctrine-schema-update-bundle": "~1.0",
-        "webtown/kunstmaan-setup-bundle": "dev-master",
+        "hgabka/kunstmaan-setup-bundle": "dev-master",
         "paragonie/random_compat": "1.4.0",
         "egeloen/lucene-search-bundle": "~1.0",
         "zendframework/zendsearch": "dev-master",
-	    "webtown/kunstmaan-extension-bundle": "~1.0.12",
+	    "hgabka/kunstmaan-extension-bundle": "~1.0.12",
 	    "hgabka/lucene-bundle": "dev-master"
     },
     "require-dev": {
@@ -67,6 +67,14 @@
         }
     },
     "repositories": [
+        {
+            "type": "vcs",
+            "url":  "git@github.com:hgabka/KunstmaanExtensionBundle.git"
+        },
+        {
+            "type": "vcs",
+            "url":  "git@github.com:hgabka/KunstmaanSetupBundle.git"
+        },
         {
             "type": "vcs",
             "url":  "git@github.com:webtown-php/KunstmaanSetupBundle.git"

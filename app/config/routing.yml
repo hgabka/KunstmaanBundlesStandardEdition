@@ -1,6 +1,6 @@
 # WebtownKunstmaanExtensionBundle
 KunstmaanAdminBundle_cache_routes:
-    resource: '@WebtownKunstmaanExtensionBundle/Controller/CacheController.php'
+    resource: '@HgabkaKunstmaanExtensionBundle/Controller/CacheController.php'
     type:     annotation
     prefix:   /admin/settings/cache
 
@@ -13,7 +13,7 @@ HgabkaLuceneBundle:
 
 # WebtownKunstmaanExtension
 KunstmaanExtensionBundle:
-    resource: "@WebtownKunstmaanExtensionBundle/Resources/config/routing.yml"
+    resource: "@HgabkaKunstmaanExtensionBundle/Resources/config/routing.yml"
     prefix:   /
 
 # KunstmaanMediaBundle

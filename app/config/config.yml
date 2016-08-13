@@ -242,7 +242,7 @@ jms_translation:
                 - "%kernel.root_dir%/../src"
                 - "%kernel.root_dir%/../vendor/kunstmaan/bundles-cms/src/Kunstmaan"
                 - "%kernel.root_dir%/../vendor/white-october/pagerfanta-bundle"
-                - "%kernel.root_dir%/../vendor/webtown"
+                - "%kernel.root_dir%/../vendor/hgabka"
             output_dir: "%kernel.root_dir%/Resources/translations"
             ignored_domains:
                 - FOSUserBundle
