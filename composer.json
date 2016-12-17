@@ -15,6 +15,8 @@
         "ekino/newrelic-bundle": "~1.3.2",
         "doctrine/doctrine-migrations-bundle": "~1.1.1",
         "friendsofsymfony/user-bundle": "2.0.*@dev",
+		"egeloen/lucene-search-bundle": "~1.0",
+        "zendframework/zendsearch": "dev-master",
         "hgabka/kunstmaan-setup-bundle": "dev-master",
 		"hgabka/kunstmaan-extension-bundle": "dev-master",
 		"hgabka/lucene-bundle": "dev-master",
