@@ -27,11 +27,11 @@ parameters:
     cdnpath:                    ~
 
     websitetitle:               MyProject
-    session_prefix:             %database_name%
+    session_prefix:             myproject
 
     searchport:                 9200
-    searchindexname:            %database_name%
-    searchindexprefix:          %database_name%
+    searchindexname:            myproject
+    searchindexprefix:          myproject
 
     analytics.googletagmanager: GTM-XXXXXX
 

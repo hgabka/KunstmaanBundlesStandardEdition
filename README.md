@@ -1,32 +1,7 @@
-What is the difference
-======================
-
-- Added **NodeJs configuration option**. There are different NodeJS paths in some cases. The original Edition does not support the set different paths in different server or in different development environments on installation. 
-- Added **PHP CS Fixer with `.php_cs` config file**. Using: `bin/php-cs-fixer fix --config-file=.php_cs`
-- Added **Webtown/KunstmaanSetupBundle** and upgrade README.md
-- Added **Webtown/WebtownDoctrineSchemaUpdateBundle**
-- Added **.gitattributes** file
-- Change **parameters.yml.dist**, use the `%database_name%` parameter
-- Added **deployer/deployer** package
-- Added **JMSTranslationBundle** fork
-
-Install with Hgabka/KunstmaanSetupBundle
-=========================================
-
-```
-    composer install
-    bin/init-existing-km-project
-```
-
-The `bin/init-existing-km-project` command check and install everything what you need.
-
-Javascripts
-===========
-
 Kunstmaan Bundles Standard Edition
 ==================================
 
-Welcome to the Kunstmaan Bundles Standard Edition - a fully-functional CMS (content management system) based on Symfony2 that you can use as the skeleton for your websites. Please refer to the documentation at [http://bundles.kunstmaan.be/getting-started](http://bundles.kunstmaan.be/getting-started) to get your CMS up and running.
+Welcome to the Kunstmaan Bundles Standard Edition - a fully-functional CMS (content management system) based on Symfony that you can use as the skeleton for your websites. Please refer to the documentation at [http://bundles.kunstmaan.be/getting-started](http://bundles.kunstmaan.be/getting-started) to get your CMS up and running.
 
 ![Screenshot](http://bundles.kunstmaan.be/uploads/media/521f4ef030de9.png?7dd5040)
 

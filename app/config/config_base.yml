@@ -1,6 +1,5 @@
 imports:
     - { resource: parameters.yml }
-    - { resource: nodejs_parameters.yml }
     - { resource: security.yml }
 
 framework:

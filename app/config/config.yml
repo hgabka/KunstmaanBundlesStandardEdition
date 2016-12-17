@@ -5,9 +5,9 @@ framework:
     ide:                "phpstorm://open?file=%%f&line=%%l"
     esi:                { enabled: true }
     fragments:          { path: /_fragment }
-    translator:         { fallback: %locale% }
+    translator:         { fallback: "%locale%" }
     session:
-        name:               %session_prefix%
+        name:               "%session_prefix%"
         # set true if no scripting languages need to access the cookie
         cookie_httponly:    false
     assets:
@@ -15,26 +15,25 @@ framework:
 
 twig:
     globals:
-        websitetitle: %websitetitle%
-        defaultlocale: %defaultlocale%
-        requiredlocales: %requiredlocales%
-        gtm_code: %analytics.googletagmanager%
-        kuma_disabled_node_fields: %kuma.disabled.node.fields%
+        websitetitle: "%websitetitle%"
+        defaultlocale: "%defaultlocale%"
+        requiredlocales: "%requiredlocales%"
+        gtm_code: "%analytics.googletagmanager%"
         #titlecolor: "#000000"
         #titlebgcolor: "#2997CE"
 
 assetic:
-    node: "%node_bin_path%"
+    node: /usr/bin/node
     filters:
         cssrewrite: ~
         scss: ~
         uglifyjs2:
-            bin: "%uglifyjs_bin_path%"
+            bin: /usr/bin/uglifyjs
             compress: true
         uglifycss:
-            bin: "%uglifycss_bin_path%"
+            bin: /usr/bin/uglifycss
         yui_js:
-            jar: %kernel.root_dir%/Resources/tools/java/yuicompressor-2.4.8.jar
+            jar: "%kernel.root_dir%/Resources/tools/java/yuicompressor-2.4.8.jar"
         jpegoptim:
             bin: jpegoptim
             strip_all: true
@@ -83,12 +82,9 @@ doctrine:
 
 parameters:
     assetic.cache.class: Assetic\Cache\ArrayCache
-    kuma.disabled.node.fields:
-        - { inputname: internalName, value: search }
-        - { inputname: internalName, value: homepage }
 
 stof_doctrine_extensions:
-    default_locale: %defaultlocale%
+    default_locale: "%defaultlocale%"
     translation_fallback: true
     orm:
         default:
@@ -219,8 +215,6 @@ kunstmaan_translator:
 kunstmaan_admin:
     admin_password: -adminpwd-
     dashboard_route: 'kunstmaan_dashboard'
-    default_admin_locale: "%defaultlocale%"
-    admin_locales: ["%defaultlocale%"]
 
 ekino_new_relic:
     enabled:        true
@@ -229,46 +223,3 @@ ekino_new_relic:
     log_commands:   true
     transaction_naming: service
     transaction_naming_service: kunstmaan_newrelic_naming_strategy
-
-jms_translation:
-    locales: [hu]
-    custom_form_config_names: ['info_text', 'empty_value']
-    configs:
-        app:
-            keep: true
-            dirs:
-                - "%kernel.root_dir%/Resources"
-                - "%kernel.root_dir%/DoctrineMigrations"
-                - "%kernel.root_dir%/../src"
-                - "%kernel.root_dir%/../vendor/kunstmaan/bundles-cms/src/Kunstmaan"
-                - "%kernel.root_dir%/../vendor/white-october/pagerfanta-bundle"
-                - "%kernel.root_dir%/../vendor/hgabka"
-            output_dir: "%kernel.root_dir%/Resources/translations"
-            ignored_domains:
-                - FOSUserBundle
-            excluded_names:
-                - "*TestCase.php"
-                - "*Test.php"
-                - "*Context.php"
-                - "*Interface.php"
-                - ExtendedMinkContext.php
-                - FeatureContext.php
-                - UnitTestCase.php
-            excluded_dirs:
-                - Tests
-                - MuninBundle
-                - Features/Context
-                - Features/SubContext
-                - cache
-                - data
-                - logs
-                - vendor
-                - .git
-                - .idea
-                - web
-                - GeneratorBundle
-                - LeadGenerationBundle
-                - MultiDomainBundle
-            output_options:
-                xlf:
-                    add_date: false

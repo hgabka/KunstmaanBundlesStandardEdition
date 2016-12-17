@@ -9,35 +9,27 @@
     },
     "require": {
         "kunstmaan/bundles-cms": "dev-master",
-        "raven/raven": "~0.13.0",
+        "symfony-cmf/routing-bundle": "dev-master",
+        "symfony-cmf/routing": "~1.4",
         "friendsofsymfony/http-cache-bundle": "~1.3.6",
         "ekino/newrelic-bundle": "~1.3.2",
         "doctrine/doctrine-migrations-bundle": "~1.1.1",
-        "friendsofsymfony/user-bundle": "2.0.*@dev",
-        "kriswallsmith/spork": "~0.3.0",
-        "webtown/doctrine-schema-update-bundle": "~1.0",
-        "hgabka/kunstmaan-setup-bundle": "dev-master",
-        "paragonie/random_compat": "1.4.0",
-        "egeloen/lucene-search-bundle": "~1.0",
-        "zendframework/zendsearch": "dev-master",
-	    "hgabka/kunstmaan-extension-bundle": "dev-master",
-	    "hgabka/lucene-bundle": "dev-master"
+        "friendsofsymfony/user-bundle": "2.0.0-beta1",
+        "sentry/sentry": "^1.4"
     },
     "require-dev": {
-        "behat/behat": "~2.5.0",
-        "behat/mink": "*",
-        "behat/symfony2-extension": "*",
-        "behat/mink-extension": "*",
-        "behat/mink-browserkit-driver": "*",
-        "behat/mink-selenium2-driver": "*",
-        "behat/mink-goutte-driver": "*",
-        "behat/mink-sahi-driver": "*",
+        "behat/behat": "dev-master",
+        "behat/symfony2-extension": "~2.1.1",
+        "behat/mink": "dev-master",
+        "behat/mink-browserkit-driver": "dev-master",
+        "behat/mink-selenium2-driver": "dev-master",
+        "behat/mink-goutte-driver": "dev-master",
+        "behat/mink-sahi-driver": "dev-master",
+        "symfony/phpunit-bridge": "~3.0",
         "phpunit/phpunit": "~4.4",
         "fzaninotto/faker": "~1.5",
-        "nelmio/alice": "~1.6",
-        "fabpot/goutte": "~1.0",
-        "friendsofphp/php-cs-fixer": "~1.11@dev",
-        "deployer/deployer": "^3.3"
+        "nelmio/alice": "^2.1.4",
+        "behat/mink-extension": "~2.0"
     },
     "scripts": {
         "post-root-package-install": [
@@ -66,42 +58,17 @@
             "php": "5.5.9"
         }
     },
-    "repositories": [
-        {
-            "type": "vcs",
-            "url":  "git@github.com:hgabka/KunstmaanExtensionBundle.git"
-        },
-        {
-            "type": "vcs",
-            "url":  "git@github.com:hgabka/KunstmaanSetupBundle.git"
-        },
-        {
-            "type": "vcs",
-            "url":  "git@github.com:webtown-php/KunstmaanSetupBundle.git"
-        },
-        {
-            "type": "vcs",
-            "url":  "git@github.com:hgabka/KunstmaanBundlesCMS.git"
-        },
-        {
-            "type": "vcs",
-            "url":  "git@github.com:hgabka/kunstmaan-lucene-bundle.git"
-        }
-    ],
     "extra": {
         "symfony-app-dir": "app",
         "symfony-web-dir": "web",
+        "symfony-var-dir": "var",
+        "symfony-bin-dir": "bin",
         "symfony-assets-install": "relative",
-        "incenteev-parameters": [
-            {
-                "file": "app/config/parameters.yml"
-            },
-            {
-                "file": "app/config/nodejs_parameters.yml"
-            }
-        ],
+        "incenteev-parameters": {
+            "file": "app/config/parameters.yml"
+        },
         "branch-alias": {
-            "dev-master": "4.0-dev"
+            "dev-master": "4.1-dev"
         }
     }
 }
