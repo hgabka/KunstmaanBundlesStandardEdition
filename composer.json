@@ -15,12 +15,12 @@
         "ekino/newrelic-bundle": "~1.3.2",
         "doctrine/doctrine-migrations-bundle": "~1.1.1",
         "friendsofsymfony/user-bundle": "2.0.*@dev",
-		"egeloen/lucene-search-bundle": "~1.0",
-        "zendframework/zendsearch": "dev-master",
+        "sentry/sentry": "^1.4",
         "hgabka/kunstmaan-setup-bundle": "dev-master",
-		"hgabka/kunstmaan-extension-bundle": "dev-master",
-		"hgabka/lucene-bundle": "dev-master",
-        "sentry/sentry": "^1.4"
+        "egeloen/lucene-search-bundle": "~1.0",
+        "zendframework/zendsearch": "dev-master",
+	    "hgabka/kunstmaan-extension-bundle": "dev-master",
+	    "hgabka/lucene-bundle": "dev-master"
     },
     "require-dev": {
         "behat/behat": "dev-master",
@@ -63,7 +63,8 @@
         "bin-dir": "bin",
         "platform": {
             "php": "5.5.9"
-        }
+        },
+        "secure-http": false
     },
     "repositories": [
         {
@@ -89,9 +90,14 @@
         "symfony-var-dir": "var",
         "symfony-bin-dir": "bin",
         "symfony-assets-install": "relative",
-        "incenteev-parameters": {
-            "file": "app/config/parameters.yml"
-        },
+        "incenteev-parameters": [
+            {
+                "file": "app/config/parameters.yml"
+            },
+            {
+                "file": "app/config/nodejs_parameters.yml"
+            }
+        ],
         "branch-alias": {
             "dev-master": "4.1-dev"
         }
