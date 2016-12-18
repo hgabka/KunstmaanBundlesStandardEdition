@@ -1,6 +1,10 @@
+KunstmaanAdminBundle_cache_routes:
+    resource: '@HgabkaKunstmaanExtensionBundle/Resources/config/routing.yml'
+    prefix:   /
+
 # WebtownKunstmaanExtension
 KunstmaanExtensionBundle:
-    resource: "@WebtownKunstmaanExtensionBundle/Resources/config/routing.yml"
+    resource: "@HgabkaKunstmaanExtensionBundle/Resources/config/routing.yml"
     prefix:   /
 
 # KunstmaanMediaBundle
