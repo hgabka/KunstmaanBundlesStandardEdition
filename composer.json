@@ -17,8 +17,6 @@
         "friendsofsymfony/user-bundle": "2.0.*@dev",
         "sentry/sentry": "^1.4",
         "hgabka/kunstmaan-setup-bundle": "dev-master",
-        "egeloen/lucene-search-bundle": "~1.0",
-        "zendframework/zendsearch": "dev-master",
 	    "hgabka/kunstmaan-extension-bundle": "dev-master",
 	    "hgabka/lucene-bundle": "dev-master"
     },
