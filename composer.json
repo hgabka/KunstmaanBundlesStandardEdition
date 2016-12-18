@@ -67,16 +67,20 @@
     },
     "repositories": [
         {
-            "type": "composer",
-            "url": "http://packages.maranhao.webtown.hu"
+            "type": "vcs",
+            "url":  "git@github.com:hgabka/KunstmaanExtensionBundle.git"
         },
         {
             "type": "vcs",
-            "url":  "git@github.com:webtown-php/KunstmaanSetupBundle.git"
+            "url":  "git@github.com:hgabka/KunstmaanSetupBundle.git"
         },
         {
             "type": "vcs",
-            "url":  "git@github.com:webtown-php/KunstmaanBundlesCMS.git"
+            "url":  "git@github.com:hgabka/KunstmaanBundlesCMS.git"
+        },
+        {
+            "type": "vcs",
+            "url":  "git@github.com:hgabka/kunstmaan-lucene-bundle.git"
         }
     ],
     "extra": {
