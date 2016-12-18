@@ -1,3 +1,28 @@
+What is the difference
+======================
+
+- Added **NodeJs configuration option**. There are different NodeJS paths in some cases. The original Edition does not support the set different paths in different server or in different development environments on installation. 
+- Added **PHP CS Fixer with `.php_cs` config file**. Using: `bin/php-cs-fixer fix --config-file=.php_cs`
+- Added **Webtown/KunstmaanSetupBundle** and upgrade README.md
+- Added **Webtown/WebtownDoctrineSchemaUpdateBundle**
+- Added **.gitattributes** file
+- Change **parameters.yml.dist**, use the `%database_name%` parameter
+- Added **deployer/deployer** package
+- Added **JMSTranslationBundle** fork
+
+Install with Webtown/KunstmaanSetupBundle
+=========================================
+
+```
+    composer install
+    bin/init-existing-km-project
+```
+
+The `bin/init-existing-km-project` command check and install everything what you need.
+
+Javascripts
+===========
+
 Kunstmaan Bundles Standard Edition
 ==================================
 

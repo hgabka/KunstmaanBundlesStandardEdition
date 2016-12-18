@@ -44,10 +44,10 @@ class AppKernel extends Kernel
             new Kunstmaan\RedirectBundle\KunstmaanRedirectBundle(),
             new Kunstmaan\UserManagementBundle\KunstmaanUserManagementBundle(),
             new Kunstmaan\DashboardBundle\KunstmaanDashboardBundle(),
+            new Webtown\DoctrineSchemaUpdateBundle\WebtownDoctrineSchemaUpdateBundle(),
+            new Webtown\KunstmaanExtensionBundle\WebtownKunstmaanExtensionBundle(),
+            new JMS\TranslationBundle\JMSTranslationBundle(),
             //new Kunstmaan\LeadGenerationBundle\KunstmaanLeadGenerationBundle(),
-            new Hgabka\KunstmaanExtensionBundle\HgabkaKunstmaanExtensionBundle(),
-            new Ivory\LuceneSearchBundle\IvoryLuceneSearchBundle(),
-            new Hgabka\LuceneBundle\HgabkaLuceneBundle(),
         );
 
         if (in_array($this->getEnvironment(), array('dev'), true)) {

@@ -2,6 +2,7 @@
 /var/bootstrap.php.cache
 /var/cache/*
 /app/config/parameters.yml
+/app/config/nodejs_parameters.yml
 /var/logs/*
 !var/cache/.gitkeep
 !var/logs/.gitkeep
