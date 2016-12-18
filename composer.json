@@ -16,9 +16,10 @@
         "doctrine/doctrine-migrations-bundle": "~1.1.1",
         "friendsofsymfony/user-bundle": "2.0.*@dev",
         "sentry/sentry": "^1.4",
-        "webtown/doctrine-schema-update-bundle": "~1.0",
-        "webtown/kunstmaan-setup-bundle": "~4.0.0@dev",
-        "webtown/kunstmaan-extension-bundle": "~1.0.12"
+        "hgabka/kunstmaan-setup-bundle": "dev-master",
+	    "hgabka/kunstmaan-extension-bundle": "dev-master",
+        "zendframework/zendsearch": "@dev",
+	    "hgabka/lucene-bundle": "dev-master"
     },
     "require-dev": {
         "behat/behat": "dev-master",
