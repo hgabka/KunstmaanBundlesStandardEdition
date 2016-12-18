@@ -1,8 +1,10 @@
-KunstmaanAdminBundle_cache_routes:
-    resource: '@HgabkaKunstmaanExtensionBundle/Resources/config/routing.yml'
-    prefix:   /
+HgabkaLuceneBundle:
+    resource: '@HgabkaLuceneBundle/Resources/config/routing.yml'
+    prefix:   /{_locale}/
+    requirements:
+        _locale: %requiredlocales%
 
-# WebtownKunstmaanExtension
+# HgabkaKunstmaanExtension
 KunstmaanExtensionBundle:
     resource: "@HgabkaKunstmaanExtensionBundle/Resources/config/routing.yml"
     prefix:   /
