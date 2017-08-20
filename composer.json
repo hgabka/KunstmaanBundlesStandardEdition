@@ -9,8 +9,6 @@
     },
     "require": {
         "kunstmaan/bundles-cms": "dev-master",
-        "symfony-cmf/routing-bundle": "dev-master",
-        "symfony-cmf/routing": "~1.4",
         "friendsofsymfony/http-cache-bundle": "~1.3.6",
         "ekino/newrelic-bundle": "~1.3.2",
         "doctrine/doctrine-migrations-bundle": "~1.1.1",
