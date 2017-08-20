@@ -1,11 +1,14 @@
 /web/bundles/
 /var/bootstrap.php.cache
 /var/cache/*
+/var/luceneindex/*
+/var/luceneindex/**
 /app/config/parameters.yml
 /app/config/nodejs_parameters.yml
 /var/logs/*
 !var/cache/.gitkeep
 !var/logs/.gitkeep
+!var/luceneindex/.gitkeep
 /vendor/
 /bin/*
 !bin/console
