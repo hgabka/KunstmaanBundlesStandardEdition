@@ -28,7 +28,7 @@ if (getenv('APP_ENV') === 'dev') {
     $kernel = new AppKernel('prod', false);
 }
 
-$kernel->loadClassCache();
+//$kernel->loadClassCache();
 
 if (getenv('APP_ENV') !== 'dev') {
     if (!isset($_SERVER['HTTP_SURROGATE_CAPABILITY']) || false === strpos($_SERVER['HTTP_SURROGATE_CAPABILITY'], 'ESI/1.0')) {
