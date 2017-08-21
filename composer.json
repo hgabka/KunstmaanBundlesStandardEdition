@@ -24,8 +24,7 @@
         "phpunit/phpunit": "~4.4",
         "fzaninotto/faker": "~1.5",
         "nelmio/alice": "^2.1.4",
-        "friendsofphp/php-cs-fixer": "~1.13@dev",
-        "deployer/deployer": "^3.3"
+        "friendsofphp/php-cs-fixer": "~2.4"
     },
     "scripts": {
         "post-root-package-install": [
