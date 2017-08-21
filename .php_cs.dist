@@ -43,7 +43,7 @@ $config = PhpCsFixer\Config::create()
     ->setFinder(
         PhpCsFixer\Finder::create()
             ->exclude('tests/Fixtures')
-            ->in(__DIR__)
+            ->in(__DIR__ . DIRECTORY_SEPARATOR . 'src')
     )
 ;
 // special handling of fabbot.io service if it's using too old PHP CS Fixer version
