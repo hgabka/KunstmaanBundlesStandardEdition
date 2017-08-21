@@ -20,18 +20,10 @@
 	    "hgabka/lucene-bundle": "dev-master"
     },
     "require-dev": {
-        "behat/behat": "dev-master",
-        "behat/symfony2-extension": "~2.1.1",
-        "behat/mink": "dev-master",
-        "behat/mink-browserkit-driver": "dev-master",
-        "behat/mink-selenium2-driver": "dev-master",
-        "behat/mink-goutte-driver": "dev-master",
-        "behat/mink-sahi-driver": "dev-master",
         "symfony/phpunit-bridge": "~3.0",
         "phpunit/phpunit": "~4.4",
         "fzaninotto/faker": "~1.5",
         "nelmio/alice": "^2.1.4",
-        "behat/mink-extension": "~2.0",
         "friendsofphp/php-cs-fixer": "~1.13@dev",
         "deployer/deployer": "^3.3"
     },
