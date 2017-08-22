@@ -19,6 +19,7 @@ twig:
         defaultlocale: "%defaultlocale%"
         requiredlocales: "%requiredlocales%"
         gtm_code: "%analytics.googletagmanager%"
+        kuma_disabled_node_fields: %kuma.disabled.node.fields%
         #titlecolor: "#000000"
         #titlebgcolor: "#2997CE"
 
@@ -82,6 +83,8 @@ doctrine:
 
 parameters:
     assetic.cache.class: Assetic\Cache\ArrayCache
+    kuma.disabled.node.fields:
+        - { inputname: internalName, value: search }
 
 stof_doctrine_extensions:
     default_locale: "%defaultlocale%"
