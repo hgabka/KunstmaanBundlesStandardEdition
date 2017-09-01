@@ -7,7 +7,7 @@ HgabkaLuceneBundle:
 # HgabkaKunstmaanExtension
 KunstmaanExtensionBundle:
     resource: "@HgabkaKunstmaanExtensionBundle/Resources/config/routing.yml"
-    prefix:   /
+    prefix:   /{_locale}/
 
 # KunstmaanMediaBundle
 _liip_imagine:
