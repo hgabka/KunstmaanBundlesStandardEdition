@@ -17,8 +17,7 @@
         "sentry/sentry": "^1.6.2",
         "hgabka/kunstmaan-setup-bundle": "dev-master",
 	"hgabka/kunstmaan-extension-bundle": "dev-master",
-	"hgabka/lucene-bundle": "dev-master",
-	"twig/extensions": "^1.2"    
+	"hgabka/lucene-bundle": "dev-master"
     },
     "require-dev": {
         "symfony/phpunit-bridge": "~3.0",
