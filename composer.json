@@ -13,7 +13,7 @@
 	"php-http/guzzle6-adapter": "~1.1.1",
         "ekino/newrelic-bundle": "~1.3.2",
         "doctrine/doctrine-migrations-bundle": "~1.2.1",
-        "friendsofsymfony/user-bundle": "2.0.*@dev",
+        "friendsofsymfony/user-bundle": "~2.0",
         "sentry/sentry": "^1.6.2",
         "hgabka/kunstmaan-setup-bundle": "dev-master",
 	"hgabka/kunstmaan-extension-bundle": "dev-master",
